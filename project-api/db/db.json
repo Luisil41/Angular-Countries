@@ -6,16 +6,13 @@
         },
         {
             "name": "Countries",
-            "navigate": "/countries"
-        },
-        {
-            "name": "Search",
             "navigate": "/regiones"
         },
         {
-            "name": "Maps",
-            "navigate": "/mapas"
+            "name": "Map",
+            "navigate": "/countries" 
         }
+        
     ],
 
     "footer": {

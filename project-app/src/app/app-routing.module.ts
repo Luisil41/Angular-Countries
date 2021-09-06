@@ -16,11 +16,7 @@ const routes: Routes = [
   {
     path: 'regiones',
     loadChildren: () => import('./pages/regiones/regiones.module').then (module => module.RegionesModule)
-  },
-  {
-    path: 'mapas',
-    loadChildren: () => import('./pages/mapas/mapas.module').then (module => module.MapasModule)
-  },
+  }
 
 ];
 
