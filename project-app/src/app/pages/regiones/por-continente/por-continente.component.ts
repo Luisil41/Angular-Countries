@@ -21,11 +21,18 @@ export class PorContinenteComponent  {
   constructor(private regionesService: RegionesService) { }
 
   getClaseCSS(region: string):string { 
+
+
+    
     return (region === this.regionActiva) ? 'btn btn-primary' : 'btn btn-outline-primary';
   }
 
   activarRegion(region: string){
+
+    if(region === this.regionActiva) {return;}
+
     this.regionActiva = region;
+    this.paises = [];
 
     this.regionesService.buscarRegion(region)
       .subscribe( paises => this.paises = paises);
