@@ -7,6 +7,9 @@ import { Country } from '../models/region-interface';
   providedIn: 'root'
 })
 export class RegionesService {
+  searchCapital(region: string) {
+    throw new Error('Method not implemented.');
+  }
 
   private weatherUrl:string = 'https://restcountries.eu/rest/v2'
 
@@ -15,6 +18,13 @@ export class RegionesService {
   searchCountry(region:string):Observable<Country[]> {
 
     const url = `${this.weatherUrl}/name/${ region }`;
+
+      return this.httpClient.get<Country[]>(url);
+  }
+
+  buscarCapital(region:string): Observable<Country[]> {
+
+    const url = `${this.weatherUrl}/capital/${ region }`;
 
       return this.httpClient.get<Country[]>(url);
   }

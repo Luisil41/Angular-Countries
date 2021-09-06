@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
 header{
 background-color: rgb(4,5,6);
 height: 10vh;
@@ -12,12 +14,13 @@ ul{
 
 li{
     margin-top: 20px;
+    list-style-type: none;
 
 }
 
 a{
     color: white;
     text-decoration: none;
-    font-family: monospace;
+    font-family: 'Vollkorn', serif;
     
 }

@@ -5,12 +5,12 @@
             "navigate": "/home"
         },
         {
-            "name": "Countries",
+            "name": "Region",
             "navigate": "/regiones"
         },
         {
-            "name": "Map",
-            "navigate": "/countries" 
+            "name": "Countries",
+            "navigate": "/capital" 
         }
         
     ],
@@ -32,10 +32,10 @@
     },
 
     "home": {
-        "title": "Welcome to Upgrade World App",
-        "about": "",
+        "title": "Find Useful information about countries worldwide",
+        "about": "Luis Isarría",
         "countryImage": {
-            "src":"https://wallpaperaccess.com/full/419588.jpg",
+            "src":"https://i.pinimg.com/736x/10/21/ca/1021ca76625563de32b12ce645c6599f.jpg",
             "alt":""
         }
     },

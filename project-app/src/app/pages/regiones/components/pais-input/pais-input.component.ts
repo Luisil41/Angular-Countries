@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-pais-input',
@@ -9,6 +9,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
 export class PaisInputComponent {
 
   @Output() onEnter: EventEmitter<string> = new EventEmitter();
+
+  @Input() placeholder: string = '';
 
   region: string = '';
 

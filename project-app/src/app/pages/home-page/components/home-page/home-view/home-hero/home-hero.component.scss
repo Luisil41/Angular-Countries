@@ -1,11 +1,16 @@
+body{
+    background-color: black;
+}
+
+
 
 h2{
     position:absolute;
-    top: 20%;
+    top: 50%;
     width:100%;
-    left:50%;
+    left:55%;
     transform: translate(-50%, -50%);
-    font-family: monospace;
+    font-family: 'Vollkorn', serif;
     font-size: 22px;
     color:white;
 }

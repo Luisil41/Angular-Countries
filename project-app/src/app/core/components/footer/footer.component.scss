@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+
 body{
     margin: 0 auto;
 }
@@ -5,6 +8,7 @@ body{
 footer{
 background-color: rgb(4, 5, 9);
 width: 100%;
+position: fixed;
 }
 
 ul{
@@ -16,7 +20,7 @@ li{
     margin-top: 40px;
     color: white;
     list-style: none;
-    font-family:monospace;
+    font-family: 'Vollkorn', serif;
 }
 
 a{
@@ -25,7 +29,7 @@ a{
 
 p{
     color: white;
-    font-family: monospace;
+    font-family: 'Vollkorn', serif;
     display:flex;
     justify-content:center;
 }

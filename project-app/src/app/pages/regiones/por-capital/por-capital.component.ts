@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { Country } from '../models/region-interface';
 import { RegionesService } from '../services/regiones.service';
 
-
 @Component({
-  selector: 'app-por-region',
-  templateUrl: './por-region.component.html',
-  styleUrls: ['./por-region.component.scss']
+  selector: 'app-por-capital',
+  templateUrl: './por-capital.component.html',
+  styles: [
+  ]
 })
-export class PorRegionComponent {
+export class PorCapitalComponent  {
 
   region: string = '';
   hayError: boolean = false;
@@ -20,11 +20,9 @@ export class PorRegionComponent {
     this.hayError = false;
     this.region = region;
 
-    this.regionesService.searchCountry(region)
+    this.regionesService.buscarCapital(region)
       .subscribe((paises) => {
-        console.log(paises);
         this.paises = paises;
-
       }, 
       (err) => {
         this.hayError = true;
@@ -33,5 +31,3 @@ export class PorRegionComponent {
     }
 
   }
-
-
