@@ -6,12 +6,17 @@
         },
         {
             "name": "Region",
-            "navigate": "/regiones"
+            "navigate": "/regiones" 
         },
         {
             "name": "Countries",
+            "navigate": "/regiones"
+        },
+        {
+            "name": "Capital",
             "navigate": "/capital" 
         }
+        
         
     ],
 
