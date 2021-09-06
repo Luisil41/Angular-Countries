@@ -6,7 +6,7 @@
         },
         {
             "name": "Region",
-            "navigate": "/regiones" 
+            "navigate": "/continente" 
         },
         {
             "name": "Countries",

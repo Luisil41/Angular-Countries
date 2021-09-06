@@ -9,12 +9,14 @@ width: 100%;
 ul{
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
 li{
     margin-top: 20px;
     list-style-type: none;
+    left: 0;
 
 }
 

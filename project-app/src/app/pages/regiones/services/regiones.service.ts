@@ -28,4 +28,12 @@ export class RegionesService {
 
       return this.httpClient.get<Country[]>(url);
   }
+
+  buscarRegion(region:string): Observable<Country[]> {
+
+    const url = `${this.weatherUrl}/region/${ region }`;
+
+      return this.httpClient.get<Country[]>(url);
+
+  }
 }
