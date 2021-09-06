@@ -1,0 +1,36 @@
+// EL GAP ES EL ESPACIO ENTRE LOS ELEMENTOS DE NUESTRO GRID
+$gap-horizontal: 10px;
+$gap-vertical: $gap-horizontal;
+// NUMERO COLUMNAS DE NUESTRO GRID
+$grid-columns: 12;
+
+@mixin grid {
+    //supports, el elemento que va a recuperar
+  @supports (grid-area: auto) {
+    // CREA LA GRID
+    display: grid;
+    // ESPACIO COLUMNAS Y FILAS
+    grid-column-gap: $gap-horizontal;
+    grid-row-gap: $gap-vertical;
+  }
+}
+
+// RECIBE EL NUMERO DE COLUMNAS CUANDO ES UTILIZADO
+@mixin gridLayout($cols...) {
+  @supports (grid-area: auto) {
+    // REPETICION Y ASIGNACION DE FR POR COLUMNA
+    grid-template-columns: repeat($grid-columns, 1fr);
+    // ITERADOR
+    $i: 1;
+    // RECORREMOS CADA COLUMNA - ASIGNAMOS UN VALOR POR POSICIÓN
+    @each $col in $cols {
+      > :nth-of-type(#{$i}) {
+        grid-column-end: span nth($col, 1);
+        @if length($col) > 1 {
+          grid-row-end: span nth($col, 2);
+        }
+      }
+      $i: $i + 1;
+    }
+  }
+}

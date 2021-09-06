@@ -1,0 +1,87 @@
+{
+    "menu": [
+        {
+            "name": "Home",
+            "navigate": "/home"
+        },
+        {
+            "name": "Countries",
+            "navigate": "/countries"
+        },
+        {
+            "name": "Search",
+            "navigate": "/regiones"
+        },
+        {
+            "name": "Maps",
+            "navigate": "/mapas"
+        }
+    ],
+
+    "footer": {
+        "name": "Copyright @Luis Isarria Losada",
+        "rrss": [
+            {
+                "name": "LinkedIn",
+                "icon": "",
+                "url": "https://www.linkedin.com/in/luis-isarria/"
+            },
+            {
+                "name": "Github",
+                "icon": "",
+                "url": "http://github.com/Luisil41"
+            }
+        ]
+    },
+
+    "home": {
+        "title": "Welcome to Upgrade World App",
+        "about": "",
+        "countryImage": {
+            "src":"https://wallpaperaccess.com/full/419588.jpg",
+            "alt":""
+        }
+    },
+    "countries": [
+        {
+            "id": 1,
+            "continent": "Europe",
+            "image":{
+                "src": "https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402745/Captura_de_pantalla_2021-08-19_a_las_21.52.04_zskyis.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 2,
+            "continent": "America",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402816/Captura_de_pantalla_2021-08-19_a_las_21.53.02_rajlro.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 3,
+            "continent": "Asia",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402667/Captura_de_pantalla_2021-08-19_a_las_21.50.47_iyzdvw.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 4,
+            "continent": "Africa",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402807/Captura_de_pantalla_2021-08-19_a_las_21.52.53_gwars3.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 5,
+            "continent": "Australia",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402796/Captura_de_pantalla_2021-08-19_a_las_21.52.39_hxtlnr.png",
+                "alt": ""
+            }
+        }
+    ]
+}

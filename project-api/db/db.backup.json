@@ -1,0 +1,83 @@
+{
+    "menu": [
+        {
+            "name": "Home",
+            "navigate": "/home"
+        },
+        {
+            "name": "Countries",
+            "navigate": "/countries"
+        },
+        {
+            "name": "Search",
+            "navigate": "/regiones"
+        }
+    ],
+
+    "footer": {
+        "name": "Luis Isarria Losada",
+        "rrss": [
+            {
+                "name": "LinkedIn",
+                "icon": "",
+                "url": "https://www.linkedin.com/in/luis-isarria/"
+            },
+            {
+                "name": "Github",
+                "icon": "",
+                "url": "www.google.com"
+            }
+        ]
+    },
+
+    "home": {
+        "title": "World App",
+        "about": "World app is just a test for Upgrade Hub, first one created in Angular",
+        "countryImage": {
+            "src":"",
+            "alt":""
+        }
+    },
+    "countries": [
+        {
+            "id": 1,
+            "Continent": "Europe",
+            "image":{
+                "src": "https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402745/Captura_de_pantalla_2021-08-19_a_las_21.52.04_zskyis.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 2,
+            "Continent": "America",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402816/Captura_de_pantalla_2021-08-19_a_las_21.53.02_rajlro.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 3,
+            "Continent": "Asia",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402667/Captura_de_pantalla_2021-08-19_a_las_21.50.47_iyzdvw.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 4,
+            "Continent": "Africa",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402807/Captura_de_pantalla_2021-08-19_a_las_21.52.53_gwars3.png",
+                "alt": ""
+            }
+        },
+        {
+            "id": 5,
+            "Continent": "Oceania",
+            "image":{
+                "src":"https://res.cloudinary.com/dxdep4ec4/image/upload/v1629402796/Captura_de_pantalla_2021-08-19_a_las_21.52.39_hxtlnr.png",
+                "alt": ""
+            }
+        }
+    ]
+}

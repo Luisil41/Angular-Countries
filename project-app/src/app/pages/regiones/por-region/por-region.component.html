@@ -1,0 +1,51 @@
+<h1 class="b-title">Search your Country</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <form (ngSubmit)="searchCountry()" autocomplete="on">
+            <input type="text"
+            name="region"
+            class="form-control"
+            [(ngModel)]="region"
+            placeholder="Enter your country"
+            >
+        </form>
+    </div>
+</div>
+
+<hr>
+
+<div *ngIf="hayError"
+class="alert alert-danger">
+    Cannot find the desired country {{ region }}
+</div>
+
+<div *ngIf="!hayError" class="row">
+    <div class="col">
+
+        <table class="table table-hover">
+            <thead class="b-table-header">
+                <tr>
+                    <th> # </th>
+                    <th> Flag </th>
+                    <th> Name </th>
+                    <th> Population </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let pais of paises; let i = index">
+                    <td>{{i + 1}}</td>
+                    <td>
+                        <img class="small-flag" [src] = "pais.flag">
+                    </td>
+                    <td>{{pais.name}}</td>
+                    <td>{{pais.population | number}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+    
+

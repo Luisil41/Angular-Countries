@@ -1,0 +1,13 @@
+<footer>
+    <ul>
+        <li *ngFor="let rrss of footer?.rrss">
+            <a href="{{rrss.url}}">
+                <p>{{rrss.name}}</p>
+            </a>
+        </li>
+    </ul>
+    <div>
+        <p> {{footer?.name}} </p>
+    </div>
+
+</footer>

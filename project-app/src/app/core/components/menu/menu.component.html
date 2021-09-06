@@ -1,0 +1,10 @@
+<header>
+    <nav>
+        <ul>
+            <li *ngFor="let link of menu">
+                <a [routerLink]="[link.navigate]">{{link.name}}</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
