@@ -22,14 +22,14 @@ export class RegionesService {
       return this.httpClient.get<Country[]>(url);
   }
 
-  buscarCapital(region:string): Observable<Country[]> {
+  findCapital(region:string): Observable<Country[]> {
 
     const url = `${this.weatherUrl}/capital/${ region }`;
 
       return this.httpClient.get<Country[]>(url);
   }
 
-  buscarRegion(region:string): Observable<Country[]> {
+  findRegion(region:string): Observable<Country[]> {
 
     const url = `${this.weatherUrl}/region/${ region }`;
 

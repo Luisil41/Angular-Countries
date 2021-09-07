@@ -34,7 +34,7 @@ export class PorContinenteComponent  {
     this.regionActiva = region;
     this.paises = [];
 
-    this.regionesService.buscarRegion(region)
+    this.regionesService.findRegion(region)
       .subscribe( paises => this.paises = paises);
 
     

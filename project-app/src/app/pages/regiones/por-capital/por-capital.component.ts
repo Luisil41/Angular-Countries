@@ -20,7 +20,7 @@ export class PorCapitalComponent  {
     this.hayError = false;
     this.region = region;
 
-    this.regionesService.buscarCapital(region)
+    this.regionesService.findCapital(region)
       .subscribe((paises) => {
         this.paises = paises;
       }, 
