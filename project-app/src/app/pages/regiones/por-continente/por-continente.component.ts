@@ -9,8 +9,13 @@ import { RegionesService } from '../services/regiones.service';
   button{
     margin-right: 10px;
     margin-top: 5px;
+    margin-bottom: 10px;
     flex-wrap: wrap;
-  }`  ]
+  }  
+  h1{
+    display: flex;
+    justify-content: center;
+  }`]
 })
 export class PorContinenteComponent  {
 
