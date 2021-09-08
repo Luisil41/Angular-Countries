@@ -5,7 +5,11 @@ import { RegionesService } from '../services/regiones.service';
 @Component({
   selector: 'app-por-capital',
   templateUrl: './por-capital.component.html',
-  styles: [
+  styles: [`h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }`
   ]
 })
 export class PorCapitalComponent  {

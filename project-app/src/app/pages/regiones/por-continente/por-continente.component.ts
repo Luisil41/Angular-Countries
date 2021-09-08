@@ -13,8 +13,10 @@ import { RegionesService } from '../services/regiones.service';
     flex-wrap: wrap;
   }  
   h1{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
+    
   }`]
 })
 export class PorContinenteComponent  {
