@@ -20,22 +20,6 @@
         
     ],
 
-    "footer": {
-        "name": "Copyright @Luis Isarria Losada",
-        "rrss": [
-            {
-                "name": "LinkedIn",
-                "icon": "",
-                "url": "https://www.linkedin.com/in/luis-isarria/"
-            },
-            {
-                "name": "Github",
-                "icon": "",
-                "url": "http://github.com/Luisil41"
-            }
-        ]
-    },
-
     "home": {
         "title": "Find Useful information about countries worldwide",
         "about": "Luis Isarría",
