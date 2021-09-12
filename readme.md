@@ -4,7 +4,7 @@ The App is divided into 4 sections:
 
 1 - Home view 
 
-screenshots/Home.png
+<img src="./screenshots/Home.png"/>
 
 2 - Region section
 
