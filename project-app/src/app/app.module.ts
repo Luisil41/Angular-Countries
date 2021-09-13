@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './core/components/menu/menu.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { SidebarComponent } from './core/components/sidebar/sidebar.component';
-import { RegionesModule } from './pages/regiones/regiones.module';
+import { RegionesModule } from './pages/regions/regiones.module';
 
 @NgModule({
   declarations: [
