@@ -2,7 +2,7 @@
 
 The App is divided into 4 sections and the folder structure is as follows:
 
-
+<img src="./screenshots/folders.png"/>
 
 
 1 - Home view 
